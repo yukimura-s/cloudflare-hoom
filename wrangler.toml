@@ -1,0 +1,10 @@
+name = "cloudflare-hoom"
+account_id = "68006e43a75686ee35f695b4a75564e1"
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+compatibility_date = "2025-01-15"
+workers_dev = true
